@@ -10,13 +10,13 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Greeting firstName="Cherian" />
-      <Greeting firstName="Nasim" />
-      <Greeting firstName="Mohamed" />
+      <Greeting firstName="Shawn" />
+      <Greeting firstName="Alexandra" />
+      <Greeting firstName="Silvia" />
       
       <StudentList>
-        <StudentCard name="Indra" week={7} info={{ city: 'BLN', course: "WEB" }} />
-        <StudentCard name="Tobias" week={7} info={{ city: 'BLN', course: "WEB" }} />
+        <StudentCard name="Panagiotis" week={7} info={{ city: 'BLN', course: "WEB" }} />
+        <StudentCard name="Josh" week={7} info={{ city: 'BLN', course: "WEB" }} />
       </StudentList>
 
       <Badge badgeText="important" />
