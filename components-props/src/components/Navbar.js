@@ -6,8 +6,8 @@ class Navbar extends React.Component {
     return (
       <nav>
         <p>React - Components & props</p>
-        <Button />
-        <Button />        
+        <Button url="https://react.dev" content="React" />
+        <Button url="https://www.ironhack.com" content="Ironhack"/>        
       </nav>
     );
   }

@@ -1,6 +1,6 @@
-function Button () {
+function Button (props) {
   return (
-    <a href="https://reactjs.org"><button> Click here </button></a>
+    <a href={props.url}><button>{props.content}</button></a>
   )
 }
 
